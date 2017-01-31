@@ -409,6 +409,7 @@ fieldset[disabled] .btn-success.active {
 .social-btns .btn.instagram:before {
   background-color: #125688;
 }
+
 .social-btns .btn.instagram .fa {
   color: #125688;
 }
@@ -433,7 +434,7 @@ fieldset[disabled] .btn-success.active {
 }
 .social-btns .btn:focus .fa,
 .social-btns .btn:hover .fa {
-  color: #fff;
+  color: #fff !important;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
