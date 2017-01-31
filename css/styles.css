@@ -434,7 +434,7 @@ fieldset[disabled] .btn-success.active {
 }
 .social-btns .btn:focus .fa,
 .social-btns .btn:hover .fa {
-  color: #fff !important;
+  color: #fff;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
