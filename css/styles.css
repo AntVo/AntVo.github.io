@@ -145,14 +145,25 @@ img.center {
 
 }
 
+.about-me-row{
+  margin-left: 40px;
+  margin-right: 40px;
+}
 
 #navigation
 {
 	padding-top: 14px;
 }
 
+#about-me{
+  padding-top:70px;
+}
 #intro-text{
 	padding-top:50px;
+}
+
+#about-txt{
+  padding-top:70px;
 }
 
 #av-logo{
@@ -160,6 +171,10 @@ img.center {
 	height: auto;
 }
 
+#about-img{
+  height: 500px;
+  width: auto;
+}
 #desk-img{
 	padding-top:50px;
 	height: 100%:
