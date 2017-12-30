@@ -197,8 +197,8 @@ p{
 }
 
 #projects-img{
-  width: 360px;
-  height: auto;
+  width: 330px;
+  height: 235px;
   border: 3px solid;
   border-color: #8ad6db;
   box-shadow: 7px 7px 7px #BEBEBE;
@@ -250,7 +250,4 @@ textarea {
   #input-submit:hover{
       opacity: .8;
   }
-
-}
-
 
