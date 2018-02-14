@@ -1,13 +1,13 @@
 body{
-	margin:0 auto;
-	max-width:44em;
-	font-family:"Fira Sans",sans-serif;
-	font-size:16px;
-	line-height:1.5em;
-	padding:0em 1em;
-	text-rendering:geometricPrecision;
-	-webkit-font-smoothing:antialiased;
-	-moz-osx-font-smoothing:grayscale
+  margin:0 auto;
+  max-width:44em;
+  font-family:"Fira Sans",sans-serif;
+  font-size:16px;
+  line-height:1.5em;
+  padding:0em .1em;
+  text-rendering:geometricPrecision;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale
 }
 
 nav {
@@ -20,7 +20,7 @@ nav {
     font-size: 20px;
 }
 #title:hover{
-	border-bottom: 4px solid;
+  border-bottom: 4px solid;
 }
 
 #links {
@@ -28,29 +28,29 @@ nav {
 }
 
 #links a{
-	margin-left: 20px;
+  margin-left: 20px;
 }
  
 #links a:hover{
-	color: red;
-	text-decoration: underline;
+  color: red;
+  text-decoration: underline;
 }
 
 #contact-section, #about-section{
-	margin: 1.5em 0em 1.5em 0em;
+  margin: 1.5em 0em 1.5em 0em;
 }
 #contact-section a{
-	color:red;
+  color:red;
 }
 
 a{
-	color: black;
-	text-decoration: none;
-	display: inline;
+  color: black;
+  text-decoration: none;
+  display: inline;
 }
 
 p{
-	display: inline;
+  display: inline;
 }
 
 .container {
@@ -74,9 +74,9 @@ hr {
 
 
 .projects-gallery{
-	display: flex;
-	justify-content: space-evenly;
-	flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .overlay {
@@ -120,4 +120,6 @@ text-indent: -9999px; //these two lines are to hide my actual link text.
 overflow: hidden; //these two lines are to hide my actual link text.
 }
 
-
+#projects{
+  margin-bottom: 50px;
+}
