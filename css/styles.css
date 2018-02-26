@@ -57,6 +57,7 @@ p{
   position: relative;
   width: 45%;
   margin: 10px 5px 10px 5px;
+  border: 1px solid grey;
 }
 
 .image {
