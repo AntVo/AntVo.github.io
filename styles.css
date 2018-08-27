@@ -70,9 +70,28 @@ p {
 }
 
 #copy {
-  margin: 120px 20px 0;
+  margin: 40px 20px;
   text-align: center;
 }
+
+.nav-bar{
+  margin-right: 43px;
+  margin-bottom: -15px;
+}
+
+.nav-bar > li{
+  margin: 5px 0px;
+}
+
+.nav-bar > li > a{
+  color: rgb(90, 90, 90);
+}
+
+.nav-bar > li > a:hover{
+  color: red;
+  font-weight: 430;
+}
+
 
 .hr {
   border: 0;
@@ -204,8 +223,8 @@ h1 {
   cursor: pointer;
 }
 
-.technology{
-  height: 75px;
+.technologies > img{
+  height: 56px;
   margin-left: 25px;
   margin-right: 25px;
 
